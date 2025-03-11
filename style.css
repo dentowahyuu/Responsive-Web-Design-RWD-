@@ -1,18 +1,22 @@
-
-/* laptop */
 body{
     background-color: grey;
     font-size: 18px;
     color: black;
+    height: 1000rem;
 }
 
 img {
-    width: 100%;
+    width: 200px;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
+.menu {
+    display: flex;
+    padding: 10px;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 10rem;
 }
 
 .box {
@@ -22,6 +26,36 @@ img {
     text-align: center;
     font-size: 18px;
     border-style: outset;
+}
+
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba (1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-nav a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0 1rem;
+}
+
+
+
+.navbar .navbar-contact span {
+    color: blue;
 }
 
 
@@ -42,7 +76,7 @@ img {
         background-color: burlywood;
     }
 
-    .container {
+    #container {
         width: 80%;
         margin: 0 auto;
     }
@@ -64,7 +98,7 @@ img {
         background-color: azure;
     }
 
-    .container {
+    #container {
         width: 60%;
         margin: 0 auto;
     }
